@@ -1,3 +1,4 @@
+#![windows_subsystem = "windows"]
 extern crate conrod;
 extern crate rosc;
 extern crate serde_json;
