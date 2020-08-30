@@ -1,0 +1,13 @@
+[package]
+name = "ntwk_tester"
+version = "0.1.0"
+authors = ["komietty <komietty@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+conrod = { version = "0.61.1", features = ["glium", "winit"] }
+serde  = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rosc = "0.4.0"
+ws = "0.9.1"
